@@ -1,0 +1,52 @@
+{
+    "plans": [
+        {
+            "name": "Free",
+            "price": 0,
+            "users": 10,
+            "gb": 2,
+            "support": "Email",
+            "help_center": true,
+            "attributes": {
+                "public": true,
+                "private": false,
+                "permissions": true,
+                "sharing": false,
+                "unlimited_members": false,
+                "extra_security": false
+            }
+        },
+        {
+            "name": "Pro",
+            "price": 15,
+            "users": 20,
+            "gb": 10,
+            "support": "Priority email",
+            "help_center": true,
+            "attributes": {
+                "public": true,
+                "private": true,
+                "permissions": true,
+                "sharing": true,
+                "unlimited_members": true,
+                "extra_security": false 
+            }
+        },
+        {
+            "name": "Enterprise",
+            "price": 29,
+            "users": 30,
+            "gb": 15,
+            "support": "Phone and email",
+            "help_center": true,
+            "attributes": {
+                "public": true,
+                "private": true,
+                "permissions": true,
+                "sharing": true,
+                "unlimited_members": true,
+                "extra_security": true
+            }
+        }
+    ]
+}
